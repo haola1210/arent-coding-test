@@ -45,4 +45,15 @@
       color: white;
     }
   }
+
+  &--darker {
+    background: var(--dark-600) !important;
+
+    .body-record__chart{
+      & > canvas {
+        background: var(--dark-600);
+      }
+    }
+  }
 }
+

@@ -86,7 +86,11 @@ const BodyRecord = ({
   shouldShowActions?: boolean;
 }) => {
   return (
-    <div className="body-record">
+    <div
+      className={`body-record ${
+        shouldShowActions ? "" : "body-record--darker"
+      }`}
+    >
       <div className="body-record__chart">
         <Line options={options} data={data} />
       </div>

@@ -35,3 +35,15 @@ body {
 .en {
  font-family: 'Inter', sans-serif;
 }
+
+#popup-root {
+  position: absolute;
+  top: 0;
+  left: calc((100vw - 1280px) / 2);
+}
+
+.popup-content {
+  top: 0 !important;
+  left: 0 !important;
+  translate: calc(1280px - 445px) 64px;
+}

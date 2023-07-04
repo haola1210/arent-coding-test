@@ -8,7 +8,7 @@ type MealItemProps = {
 const MealItem = ({ time, imageUrl }: MealItemProps) => {
   return (
     <div className="meal-item" style={{ backgroundImage: `url(${imageUrl})` }}>
-      <div className="meal-item__time">{time}</div>
+      <div className="meal-item__time en">{time}</div>
     </div>
   );
 };
