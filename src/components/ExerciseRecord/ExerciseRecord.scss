@@ -1,0 +1,86 @@
+.exercise-container {
+  // max-width: 880px;
+  max-height: 200px;
+  // width: 880px;
+  height: 200px;
+
+  overflow-y: auto;
+
+  display: flex;
+  gap: 8px 40px;
+
+  flex-wrap: wrap;
+}
+
+.exercise-item {
+  display: flex;
+  min-width: 416px;
+  height: 40px;
+  flex-direction: column;
+  border-bottom: 2px solid var(--gray-400);
+
+  &__header {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+  }
+
+  &__description {
+    width: 197px;
+    height: 22px;
+
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 300;
+  }
+
+  &__duration {
+    width: 68px;
+    height: 22px;
+
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 400;
+
+    color: var(--primary-300)
+  }
+
+  &__footer {
+    width: 63px;
+    height: 18px;
+
+    line-height: 18px;
+    font-size: 15px;
+    font-weight: 400;
+
+    padding-left: 21px;
+
+    color: var(--primary-300)
+  }
+}
+
+// refer https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_custom_scrollbar
+/* width */
+.exercise-container::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+.exercise-container::-webkit-scrollbar-track {
+  background: var(--gray-400);
+  border-radius: 15px;
+
+}
+
+/* Handle */
+.exercise-container::-webkit-scrollbar-thumb {
+  background: var(--primary-300);
+  border-radius: 15px;
+
+}
+
+/* Handle on hover */
+.exercise-container::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-400);
+}

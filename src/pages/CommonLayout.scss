@@ -1,0 +1,10 @@
+.common-layout {
+  width: inherit;
+  position: relative;
+
+  &__fixed-btn {
+    position: fixed;
+    right: calc((100vw - 1280px) / 2); //ensure this button inside the 1280px layout
+    bottom: 150px;
+  }
+}

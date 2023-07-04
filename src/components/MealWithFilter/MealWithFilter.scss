@@ -1,0 +1,14 @@
+.meal-with-filter {
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  margin: auto;
+
+  &__filter {
+    padding: 15px 0
+  }
+
+  &__list {
+
+  }
+}

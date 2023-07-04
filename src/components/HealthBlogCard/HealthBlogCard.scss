@@ -1,0 +1,41 @@
+.health-card {
+  width: 234px;
+  height: 224px;
+
+  &__body {
+    height: 48px;
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 400;
+
+    color: var(--dark-500);
+  }
+
+  &__footer {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  &__tag {
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 400;
+
+    color: var(--primary-400);
+  }
+
+  &__header {
+    height: 144px;
+
+    & > .meal-item {
+      height: 100%;
+
+      & > .meal-item__time {
+        width: 144px;
+        height: 24px;
+        line-height: 24px
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+.footer {
+  height: 128px;
+  width: 1280px;
+  padding: 56px 160px;
+
+  background-color: var(--dark-500);
+  color: white;
+
+  display: flex;
+  gap: 45px;
+
+  &__item {
+
+  }
+}

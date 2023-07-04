@@ -1,0 +1,56 @@
+.App {
+  width: 1280px;
+  margin: auto;
+}
+
+
+.layout-list {
+  width: 960px;
+
+  margin: auto;
+
+  &__container {
+    width: inherit;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  &__action {
+    margin-top: 40px;
+    & > div {
+      margin: auto;
+    }
+  }
+}
+
+
+.record-layout {
+  width: 960px;
+  margin: auto;
+  padding: 16px 24px;
+  background-color: var(--dark-500);
+  color: var(--white);
+
+  &__header {
+    display: flex;
+    align-items: center;
+  }
+  &__title {
+    width: 96px;
+    height: 36px;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 400;
+  }
+  &__time {
+    width: 146px;
+    height: 27px;
+    font-size: 22px;
+    line-height: 27px;
+    font-weight: 400;
+  }
+  &__body {
+
+  }
+}

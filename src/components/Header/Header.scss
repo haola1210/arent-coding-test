@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--dark-500);
+  justify-content: space-between;
+  align-items: center;
+
+  &__logo {
+    padding-left: 160px;
+  }
+
+  &__nav-bar {
+    padding-right: 160px;
+  }
+}

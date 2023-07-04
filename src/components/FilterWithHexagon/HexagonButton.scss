@@ -1,0 +1,28 @@
+.hexagon-button {
+  width: 136px;
+  height: 136px;
+
+  position: relative;
+
+  &__bg {
+    position: absolute;
+  }
+
+  &__content {
+    width: 136px;
+    height: 136px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    translate: -10px;
+  }
+
+  &__title {
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+}
